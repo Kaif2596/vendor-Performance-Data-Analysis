@@ -62,18 +62,23 @@ VendorNumber, VendorName, Brand, PurchasePrice, ActualPrice, Volume, TotalPurcha
 - **Power BI** → Dashboard creation for vendor & brand performance insights.
 ## 🔎 Data Cleaning & EDA
 - **Summary Statistics:**
+  
   ![image alt](https://github.com/Kaif2596/vendor-Performance-Data-Analysis/blob/main/image1.png)
   
 - Removed **negative/zero profit margins and sales** to ensure consistent data quality
+  
   ![image alt](https://github.com/Kaif2596/vendor-Performance-Data-Analysis/blob/main/image2.png)
 
 - Reduced dataset from **10,692 rows → 8,564 quality rows** after filtering.
+  
   ![image alt](https://github.com/Kaif2596/vendor-Performance-Data-Analysis/blob/main/image4.png)
 
 - Outlier detection with boxplots and descriptive statistics.
+  
   ![image alt](https://github.com/Kaif2596/vendor-Performance-Data-Analysis/blob/main/image3.png)
 
 - Correlation heatmap showed:
+  
   ![image alt](https://github.com/Kaif2596/vendor-Performance-Data-Analysis/blob/main/image5.png)
 
   - **0.999 correlation** between purchase and sales quantity → efficient inventory flow.
@@ -93,6 +98,8 @@ VendorNumber, VendorName, Brand, PurchasePrice, ActualPrice, Volume, TotalPurcha
 
 - Seasonal analysis revealed vendor/brand demand patterns.
 ## 📊 Power BI Dashboard
+
+![image alt](https://github.com/Kaif2596/vendor-Performance-Data-Analysis/blob/main/image6.png)
 
 The interactive Vendor Performance Dashboard tracks key KPIs:
 
